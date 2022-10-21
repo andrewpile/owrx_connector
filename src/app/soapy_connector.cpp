@@ -118,7 +118,7 @@ int SoapyConnector::read() {
     void* buffs[] = {buf};
     int samples_read;
     long long timeNs = 0;
-    long timeoutNs = 1E8;
+    long timeoutNs = 6E9;
     int flags = 0;
 
     //SoapySDRKwargs stream_args = {0};
